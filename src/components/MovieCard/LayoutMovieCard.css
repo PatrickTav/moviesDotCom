@@ -1,0 +1,65 @@
+.movie-card{
+  width: 30%;
+  color: #FFF;
+  margin-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #1b043a;
+  padding: 1rem;
+  transition: .5s;
+}
+
+.movie-card img{
+  max-width: 100%;
+}
+
+
+.movie-card img,
+.movie-card h2,
+.movie-card p{
+  margin-bottom: 1rem;
+}
+
+.movie-card svg{
+  color: #F54952;
+}
+.movie-card:hover{
+  background-color: #2f0768;
+}
+
+.movie-card a{
+  background-color:#Ae2d68;
+  border: 1px solid #Ae2d68;
+  border-radius: 4px;
+  color: #FFF;
+  padding: 1rem .5rem;
+  align-items: center;
+  cursor: pointer;
+  transition: .4s;
+  text-align: center;
+}
+
+.movie-card a:hover {
+  background-color: transparent;
+  color: #Ae2d68;
+}
+
+
+@media (max-width: 700px){
+  .movie-card{
+    width: 40%; 
+  }
+
+  .movie-card h2{
+    font-size: .7rem;
+    font-weight: 600;
+
+  }
+.movie-card a{
+  padding: .4rem .2rem;
+  font-size: .6rem;
+}
+
+}
+
